@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" aria-labelledby="hero-title" role="img">
+  <title id="hero-title">Effective Prompting - Master AI Communication</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Prompt comparison visualization -->
+  <g transform="translate(650, 60)">
+    <!-- Bad prompt -->
+    <rect x="0" y="0" width="230" height="130" rx="10" fill="rgba(239,68,68,0.2)" stroke="#fca5a5" stroke-width="2"/>
+    <text x="15" y="30" fill="#fca5a5" font-family="system-ui" font-size="14" font-weight="bold">❌ Vague Prompt</text>
+    <text x="15" y="60" fill="white" font-family="monospace" font-size="12">"fix this code"</text>
+    <text x="15" y="100" fill="#fca5a5" font-family="system-ui" font-size="11">→ Unclear intent</text>
+    <text x="15" y="118" fill="#fca5a5" font-family="system-ui" font-size="11">→ Missing context</text>
+    
+    <!-- Good prompt -->
+    <rect x="250" y="0" width="250" height="130" rx="10" fill="rgba(34,197,94,0.2)" stroke="#86efac" stroke-width="2"/>
+    <text x="265" y="30" fill="#86efac" font-family="system-ui" font-size="14" font-weight="bold">✅ Effective Prompt</text>
+    <text x="265" y="55" fill="white" font-family="monospace" font-size="11">"Refactor this function</text>
+    <text x="265" y="72" fill="white" font-family="monospace" font-size="11">to use async/await and</text>
+    <text x="265" y="89" fill="white" font-family="monospace" font-size="11">add error handling"</text>
+    <text x="265" y="118" fill="#86efac" font-family="system-ui" font-size="11">→ Clear, specific, actionable</text>
+    
+    <!-- Arrow -->
+    <path d="M115 150 L115 180 L385 180 L385 150" stroke="white" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    <text x="250" y="210" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">Better results! 🎯</text>
+  </g>
+  
+  <!-- Main text -->
+  <text x="80" y="140" fill="white" font-family="system-ui, sans-serif" font-size="44" font-weight="bold">Effective</text>
+  <text x="80" y="195" fill="white" font-family="system-ui, sans-serif" font-size="44" font-weight="bold">Prompting</text>
+  <text x="80" y="250" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="20">Master the art of communicating</text>
+  <text x="80" y="280" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="20">with AI for better results</text>
+  
+  <!-- Feature pills -->
+  <g transform="translate(80, 310)">
+    <rect width="100" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="50" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">🎯 Clear</text>
+  </g>
+  <g transform="translate(190, 310)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📋 Context</text>
+  </g>
+  <g transform="translate(310, 310)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">⚡ Specific</text>
+  </g>
+</svg>

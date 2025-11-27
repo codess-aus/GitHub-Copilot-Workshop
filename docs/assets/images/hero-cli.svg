@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" aria-labelledby="hero-title" role="img">
+  <title id="hero-title">GitHub CLI with Copilot - Command Line AI</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#171717;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#262626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Terminal window -->
+  <g transform="translate(620, 50)">
+    <rect x="0" y="0" width="500" height="300" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+    
+    <!-- Terminal header -->
+    <rect x="0" y="0" width="500" height="35" rx="10" fill="#161b22"/>
+    <circle cx="20" cy="17" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="17" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="17" r="6" fill="#27ca3f"/>
+    <text x="250" y="22" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">Terminal — gh copilot</text>
+    
+    <!-- Terminal content -->
+    <text x="15" y="65" fill="#7ee787" font-family="monospace" font-size="14">$</text>
+    <text x="30" y="65" fill="#c9d1d9" font-family="monospace" font-size="14">gh copilot suggest "find large files in git"</text>
+    
+    <text x="15" y="100" fill="#8b949e" font-family="monospace" font-size="13">Suggestion:</text>
+    <text x="15" y="125" fill="#79c0ff" font-family="monospace" font-size="13">git rev-list --objects --all |</text>
+    <text x="15" y="145" fill="#79c0ff" font-family="monospace" font-size="13">  git cat-file --batch-check |</text>
+    <text x="15" y="165" fill="#79c0ff" font-family="monospace" font-size="13">  sort -nk3 | tail -20</text>
+    
+    <text x="15" y="200" fill="#8b949e" font-family="monospace" font-size="13">Explanation:</text>
+    <text x="15" y="225" fill="#c9d1d9" font-family="monospace" font-size="12">Lists the 20 largest objects in your</text>
+    <text x="15" y="245" fill="#c9d1d9" font-family="monospace" font-size="12">git history sorted by size.</text>
+    
+    <text x="15" y="280" fill="#7ee787" font-family="monospace" font-size="14">$</text>
+    <rect x="25" y="267" width="10" height="18" fill="#7ee787"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="80" y="150" fill="white" font-family="system-ui, sans-serif" font-size="48" font-weight="bold">GitHub CLI</text>
+  <text x="80" y="210" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="22">AI-powered command line</text>
+  <text x="80" y="245" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="22">assistance with gh copilot</text>
+  
+  <!-- Feature pills -->
+  <g transform="translate(80, 280)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.15)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">💻 Terminal</text>
+  </g>
+  <g transform="translate(200, 280)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.15)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">❓ Suggest</text>
+  </g>
+  <g transform="translate(320, 280)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.15)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📖 Explain</text>
+  </g>
+</svg>

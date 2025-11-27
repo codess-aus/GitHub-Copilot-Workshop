@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" aria-labelledby="hero-title" role="img">
+  <title id="hero-title">Model Context Protocol - Extended AI Capabilities</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- MCP connection visualization -->
+  <g transform="translate(700, 80)">
+    <!-- Central node -->
+    <circle cx="180" cy="120" r="50" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+    <text x="180" y="115" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">GitHub</text>
+    <text x="180" y="135" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">Copilot</text>
+    
+    <!-- Connected nodes -->
+    <!-- Database -->
+    <circle cx="50" cy="50" r="35" fill="rgba(255,255,255,0.15)"/>
+    <text x="50" y="55" fill="white" font-family="system-ui" font-size="12" text-anchor="middle">🗄️ DB</text>
+    <line x1="85" y1="70" x2="140" y2="90" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Files -->
+    <circle cx="310" cy="50" r="35" fill="rgba(255,255,255,0.15)"/>
+    <text x="310" y="55" fill="white" font-family="system-ui" font-size="12" text-anchor="middle">📁 Files</text>
+    <line x1="275" y1="70" x2="220" y2="90" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- API -->
+    <circle cx="50" cy="190" r="35" fill="rgba(255,255,255,0.15)"/>
+    <text x="50" y="195" fill="white" font-family="system-ui" font-size="12" text-anchor="middle">🔌 API</text>
+    <line x1="85" y1="170" x2="140" y2="150" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Tools -->
+    <circle cx="310" cy="190" r="35" fill="rgba(255,255,255,0.15)"/>
+    <text x="310" y="195" fill="white" font-family="system-ui" font-size="12" text-anchor="middle">🔧 Tools</text>
+    <line x1="275" y1="170" x2="220" y2="150" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="80" y="140" fill="white" font-family="system-ui, sans-serif" font-size="48" font-weight="bold">MCP</text>
+  <text x="80" y="195" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="22">Model Context Protocol</text>
+  <text x="80" y="235" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="18">Connect AI to external data</text>
+  <text x="80" y="260" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="18">sources and tools</text>
+  
+  <!-- Feature pills -->
+  <g transform="translate(80, 290)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">🔗 Connect</text>
+  </g>
+  <g transform="translate(200, 290)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📊 Data</text>
+  </g>
+  <g transform="translate(320, 290)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">🔧 Extend</text>
+  </g>
+</svg>
