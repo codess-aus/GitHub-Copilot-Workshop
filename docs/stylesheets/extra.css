@@ -1,0 +1,213 @@
+/* Hero Image Styles */
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-container {
+  position: relative;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  color: white;
+}
+
+/* Accessibility Improvements */
+:focus {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--md-primary-fg-color);
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .md-typeset a {
+    text-decoration: underline;
+  }
+  
+  .md-button {
+    border: 2px solid currentColor;
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Responsive Design Enhancements */
+@media screen and (max-width: 768px) {
+  .hero-image {
+    max-height: 250px;
+  }
+  
+  .hero-overlay {
+    padding: 1rem;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-image {
+    max-height: 200px;
+    border-radius: 8px;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Resource Links Section Styling */
+.resource-links {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: var(--md-code-bg-color);
+  border-radius: 8px;
+  border-left: 4px solid var(--md-accent-fg-color);
+}
+
+.resource-links h2 {
+  margin-top: 0;
+  color: var(--md-accent-fg-color);
+}
+
+.resource-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resource-links li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.resource-links li:last-child {
+  border-bottom: none;
+}
+
+.resource-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.resource-links a::before {
+  content: "→";
+  color: var(--md-accent-fg-color);
+}
+
+/* Chapter Card Styling for Homepage */
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.chapter-card {
+  background: var(--md-code-bg-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.chapter-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.chapter-card h3 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+.chapter-card p {
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1rem;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .chapter-card {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-md-color-scheme="slate"] .chapter-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Improved link visibility in dark mode */
+[data-md-color-scheme="slate"] .resource-links a {
+  color: var(--md-accent-fg-color);
+}
+
+/* Feature list styling */
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--md-code-bg-color);
+  border-radius: 8px;
+}
+
+.feature-item .icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+/* Print styles for accessibility */
+@media print {
+  .hero-image {
+    max-height: none;
+    box-shadow: none;
+  }
+  
+  .md-sidebar,
+  .md-header,
+  .md-footer {
+    display: none;
+  }
+}

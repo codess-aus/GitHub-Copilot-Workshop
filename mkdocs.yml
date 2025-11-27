@@ -1,0 +1,113 @@
+site_name: GitHub Copilot Workshop
+site_description: A comprehensive guide to GitHub Copilot features and best practices
+site_url: https://codess-aus.github.io/GitHub-Copilot-Workshop/
+repo_url: https://github.com/codess-aus/GitHub-Copilot-Workshop
+repo_name: codess-aus/GitHub-Copilot-Workshop
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - toc.integrate
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: codess-aus
+      repo: GitHub-Copilot-Workshop
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Chapters:
+    - Introduction to GitHub Copilot: chapters/introduction.md
+    - Chat Mode: chapters/chat-mode.md
+    - Edit Mode: chapters/edit-mode.md
+    - Agent Mode: chapters/agent-mode.md
+    - GitHub Spark: chapters/github-spark.md
+    - AgentHQ: chapters/agenthq.md
+    - Control Plane: chapters/control-plane.md
+    - GitHub CLI: chapters/github-cli.md
+    - Custom Instructions: chapters/custom-instructions.md
+    - MCP: chapters/mcp.md
+    - Effective Prompting: chapters/effective-prompting.md
+    - Coding Agents: chapters/coding-agents.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/codess-aus/GitHub-Copilot-Workshop
+  generator: false

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" aria-labelledby="hero-title" role="img">
+  <title id="hero-title">GitHub Copilot Workshop - Your AI Pair Programming Journey</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="codeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e3f;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#2d2d5a;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="1100" cy="300" r="200" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="600" cy="400" r="250" fill="rgba(255,255,255,0.03)"/>
+  
+  <!-- Code window -->
+  <rect x="650" y="80" width="450" height="240" rx="10" fill="url(#codeGradient)"/>
+  <circle cx="675" cy="100" r="6" fill="#ff5f56"/>
+  <circle cx="695" cy="100" r="6" fill="#ffbd2e"/>
+  <circle cx="715" cy="100" r="6" fill="#27ca3f"/>
+  
+  <!-- Code lines -->
+  <text x="670" y="140" fill="#7dd3fc" font-family="monospace" font-size="14">def</text>
+  <text x="700" y="140" fill="#fbbf24" font-family="monospace" font-size="14">hello_copilot</text>
+  <text x="830" y="140" fill="#94a3b8" font-family="monospace" font-size="14">():</text>
+  <text x="690" y="165" fill="#a5b4fc" font-family="monospace" font-size="14">"""Your AI pair programmer"""</text>
+  <text x="690" y="190" fill="#7dd3fc" font-family="monospace" font-size="14">return</text>
+  <text x="750" y="190" fill="#86efac" font-family="monospace" font-size="14">"Hello, World!"</text>
+  
+  <!-- Copilot suggestion indicator -->
+  <rect x="670" y="210" width="400" height="30" rx="4" fill="rgba(134,239,172,0.2)" stroke="#86efac" stroke-width="1"/>
+  <text x="680" y="230" fill="#86efac" font-family="monospace" font-size="12">✨ Copilot suggestion</text>
+  
+  <!-- Main text -->
+  <text x="100" y="160" fill="white" font-family="system-ui, sans-serif" font-size="42" font-weight="bold">GitHub Copilot</text>
+  <text x="100" y="210" fill="white" font-family="system-ui, sans-serif" font-size="42" font-weight="bold">Workshop</text>
+  <text x="100" y="260" fill="rgba(255,255,255,0.8)" font-family="system-ui, sans-serif" font-size="20">Master AI-powered development</text>
+  
+  <!-- Icons -->
+  <g transform="translate(100, 290)">
+    <rect width="80" height="30" rx="15" fill="rgba(255,255,255,0.2)"/>
+    <text x="40" y="20" fill="white" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">🤖 AI</text>
+  </g>
+  <g transform="translate(190, 290)">
+    <rect width="80" height="30" rx="15" fill="rgba(255,255,255,0.2)"/>
+    <text x="40" y="20" fill="white" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">💻 Code</text>
+  </g>
+  <g transform="translate(280, 290)">
+    <rect width="100" height="30" rx="15" fill="rgba(255,255,255,0.2)"/>
+    <text x="50" y="20" fill="white" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">⚡ Agents</text>
+  </g>
+</svg>

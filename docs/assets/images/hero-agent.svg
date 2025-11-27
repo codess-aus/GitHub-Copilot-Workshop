@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" aria-labelledby="hero-title" role="img">
+  <title id="hero-title">GitHub Copilot Agent Mode - Autonomous AI Assistance</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Agent workflow visualization -->
+  <g transform="translate(700, 100)">
+    <!-- Plan box -->
+    <rect x="0" y="0" width="140" height="60" rx="10" fill="rgba(255,255,255,0.2)"/>
+    <text x="70" y="25" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📋 Plan</text>
+    <text x="70" y="45" fill="rgba(255,255,255,0.7)" font-family="system-ui" font-size="12" text-anchor="middle">5 steps</text>
+    
+    <!-- Arrow -->
+    <path d="M150 30 L180 30" stroke="white" stroke-width="2" fill="none"/>
+    <polygon points="180,25 190,30 180,35" fill="white"/>
+    
+    <!-- Execute box -->
+    <rect x="200" y="0" width="140" height="60" rx="10" fill="rgba(255,255,255,0.2)"/>
+    <text x="270" y="25" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">⚡ Execute</text>
+    <text x="270" y="45" fill="rgba(255,255,255,0.7)" font-family="system-ui" font-size="12" text-anchor="middle">Step 2 of 5</text>
+    
+    <!-- Progress indicator -->
+    <rect x="0" y="80" width="340" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+    <rect x="0" y="80" width="136" height="10" rx="5" fill="#86efac"/>
+    
+    <!-- Task list -->
+    <text x="0" y="115" fill="#86efac" font-family="system-ui" font-size="14">✅ Create models</text>
+    <text x="0" y="140" fill="#86efac" font-family="system-ui" font-size="14">✅ Add routes</text>
+    <text x="0" y="165" fill="#fbbf24" font-family="system-ui" font-size="14">🔄 Write tests</text>
+    <text x="0" y="190" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="14">⏳ Update docs</text>
+    <text x="0" y="215" fill="rgba(255,255,255,0.5)" font-family="system-ui" font-size="14">⏳ Deploy</text>
+  </g>
+  
+  <!-- Main text -->
+  <text x="80" y="150" fill="white" font-family="system-ui, sans-serif" font-size="48" font-weight="bold">Agent Mode</text>
+  <text x="80" y="210" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="22">Autonomous AI agents for</text>
+  <text x="80" y="245" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="22">complex development tasks</text>
+  
+  <!-- Feature pills -->
+  <g transform="translate(80, 280)">
+    <rect width="130" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="65" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">🤖 Autonomous</text>
+  </g>
+  <g transform="translate(220, 280)">
+    <rect width="120" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="60" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📋 Planning</text>
+  </g>
+  <g transform="translate(350, 280)">
+    <rect width="120" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="60" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">⚡ Execute</text>
+  </g>
+</svg>

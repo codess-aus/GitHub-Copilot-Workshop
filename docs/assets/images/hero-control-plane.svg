@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" aria-labelledby="hero-title" role="img">
+  <title id="hero-title">GitHub Copilot Control Plane - Enterprise Management</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1f2937;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Control panel visualization -->
+  <g transform="translate(680, 60)">
+    <rect x="0" y="0" width="440" height="280" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    
+    <!-- Header -->
+    <text x="20" y="35" fill="white" font-family="system-ui" font-size="18" font-weight="bold">🎛️ Control Plane</text>
+    
+    <!-- Policy toggles -->
+    <g transform="translate(20, 60)">
+      <rect width="400" height="45" rx="8" fill="rgba(255,255,255,0.1)"/>
+      <text x="15" y="28" fill="white" font-family="system-ui" font-size="14">Code Suggestions</text>
+      <rect x="330" y="12" width="50" height="24" rx="12" fill="#22c55e"/>
+      <circle cx="367" cy="24" r="9" fill="white"/>
+    </g>
+    
+    <g transform="translate(20, 115)">
+      <rect width="400" height="45" rx="8" fill="rgba(255,255,255,0.1)"/>
+      <text x="15" y="28" fill="white" font-family="system-ui" font-size="14">Chat Mode</text>
+      <rect x="330" y="12" width="50" height="24" rx="12" fill="#22c55e"/>
+      <circle cx="367" cy="24" r="9" fill="white"/>
+    </g>
+    
+    <g transform="translate(20, 170)">
+      <rect width="400" height="45" rx="8" fill="rgba(255,255,255,0.1)"/>
+      <text x="15" y="28" fill="white" font-family="system-ui" font-size="14">Agent Mode (Requires Approval)</text>
+      <rect x="330" y="12" width="50" height="24" rx="12" fill="#f59e0b"/>
+      <circle cx="355" cy="24" r="9" fill="white"/>
+    </g>
+    
+    <!-- Stats -->
+    <g transform="translate(20, 230)">
+      <text x="0" y="15" fill="#9ca3af" font-family="system-ui" font-size="12">Active Seats: 156/200</text>
+      <text x="200" y="15" fill="#9ca3af" font-family="system-ui" font-size="12">Policies: 12 Active</text>
+    </g>
+  </g>
+  
+  <!-- Main text -->
+  <text x="80" y="150" fill="white" font-family="system-ui, sans-serif" font-size="48" font-weight="bold">Control Plane</text>
+  <text x="80" y="210" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="22">Enterprise governance and</text>
+  <text x="80" y="245" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="22">security management</text>
+  
+  <!-- Feature pills -->
+  <g transform="translate(80, 280)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">🔒 Security</text>
+  </g>
+  <g transform="translate(200, 280)">
+    <rect width="110" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="55" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📋 Policies</text>
+  </g>
+  <g transform="translate(320, 280)">
+    <rect width="120" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="60" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📊 Compliance</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" aria-labelledby="hero-title" role="img">
+  <title id="hero-title">Custom Instructions - Personalize GitHub Copilot</title>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Instructions file visualization -->
+  <g transform="translate(680, 60)">
+    <rect x="0" y="0" width="440" height="280" rx="10" fill="#1e1e3f"/>
+    
+    <!-- File tab -->
+    <rect x="0" y="0" width="220" height="30" rx="5" fill="#2d2d5a"/>
+    <text x="15" y="20" fill="#a5b4fc" font-family="monospace" font-size="12">📄 copilot-instructions.md</text>
+    
+    <!-- Content -->
+    <text x="15" y="60" fill="#c084fc" font-family="monospace" font-size="14"># Code Style</text>
+    <text x="15" y="85" fill="#94a3b8" font-family="monospace" font-size="13">- Use TypeScript</text>
+    <text x="15" y="105" fill="#94a3b8" font-family="monospace" font-size="13">- Prefer functional components</text>
+    <text x="15" y="125" fill="#94a3b8" font-family="monospace" font-size="13">- Add JSDoc comments</text>
+    
+    <text x="15" y="160" fill="#c084fc" font-family="monospace" font-size="14"># Naming</text>
+    <text x="15" y="185" fill="#94a3b8" font-family="monospace" font-size="13">- Components: PascalCase</text>
+    <text x="15" y="205" fill="#94a3b8" font-family="monospace" font-size="13">- Functions: camelCase</text>
+    
+    <text x="15" y="240" fill="#c084fc" font-family="monospace" font-size="14"># Testing</text>
+    <text x="15" y="265" fill="#94a3b8" font-family="monospace" font-size="13">- Jest + React Testing Library</text>
+  </g>
+  
+  <!-- Main text -->
+  <text x="80" y="140" fill="white" font-family="system-ui, sans-serif" font-size="44" font-weight="bold">Custom</text>
+  <text x="80" y="195" fill="white" font-family="system-ui, sans-serif" font-size="44" font-weight="bold">Instructions</text>
+  <text x="80" y="250" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="20">Personalize Copilot to match</text>
+  <text x="80" y="280" fill="rgba(255,255,255,0.9)" font-family="system-ui, sans-serif" font-size="20">your coding style and standards</text>
+  
+  <!-- Feature pills -->
+  <g transform="translate(80, 310)">
+    <rect width="120" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="60" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">📝 Configure</text>
+  </g>
+  <g transform="translate(210, 310)">
+    <rect width="120" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="60" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">🎯 Customize</text>
+  </g>
+  <g transform="translate(340, 310)">
+    <rect width="120" height="35" rx="17" fill="rgba(255,255,255,0.2)"/>
+    <text x="60" y="23" fill="white" font-family="system-ui" font-size="14" text-anchor="middle">⚡ Optimize</text>
+  </g>
+</svg>
