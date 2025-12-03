@@ -99,5 +99,6 @@ def factorial(n):
 <li><a href="https://docs.github.com/en/copilot/quickstart" target="_blank" rel="noopener">Quickstart Guide</a></li>
 <li><a href="https://docs.github.com/en/copilot/getting-started-with-github-copilot" target="_blank" rel="noopener">Getting Started Documentation</a></li>
 <li><a href="https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/" target="_blank" rel="noopener">GitHub Blog: Copilot GA Announcement</a></li>
+<li><a href="https://learn.microsoft.com/en-us/training/courses/gh-300t00" target="_blank" rel="noopener">GitHub Copilot Fundamentals Learning Path</a></li>
 </ul>
 </div>
