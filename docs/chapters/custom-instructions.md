@@ -280,5 +280,6 @@ If user and repository instructions conflict:
 <li><a href="https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot" target="_blank" rel="noopener">Getting Started with Copilot</a></li>
 <li><a href="https://github.blog/2023-11-08-universe-2023-copilot-transforms-github-into-the-ai-powered-developer-platform/" target="_blank" rel="noopener">GitHub Universe 2023 - Copilot Updates</a></li>
 <li><a href="https://code.visualstudio.com/docs/copilot/copilot-customization" target="_blank" rel="noopener">VS Code Copilot Customization</a></li>
+<li><a href="https://github.com/github/awesome-copilot" target="_blank" rel="noopener">Awesome GitHub Copilot Customizations</a></li>
 </ul>
 </div>

@@ -199,5 +199,6 @@ Share your Spark apps:
 <li><a href="https://githubnext.com/projects/github-spark" target="_blank" rel="noopener">GitHub Next: Spark Project</a></li>
 <li><a href="https://docs.github.com/en/copilot" target="_blank" rel="noopener">GitHub Copilot Documentation</a></li>
 <li><a href="https://github.blog/changelog/" target="_blank" rel="noopener">GitHub Changelog</a></li>
+<li><a href="https://github.com/features/spark" target="_blank" rel="noopener">GitHub Spark</a></li>
 </ul>
 </div>
